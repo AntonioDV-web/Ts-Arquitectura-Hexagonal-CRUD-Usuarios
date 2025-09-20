@@ -1,15 +1,6 @@
 # 🚀 CRUD de Usuarios con Arquitectura Hexagonal y TypeScript
 Este proyecto es una aplicación de ejemplo que implementa una API RESTful para la gestión de usuarios, construida con TypeScript y siguiendo los principios de la Arquitectura Hexagonal. El objetivo principal es demostrar la separación de capas y la independencia del framework, lo que permite un desarrollo flexible y fácil de mantener.
 
-## 🧠 ¿Qué es la Arquitectura Hexagonal?
-La Arquitectura Hexagonal, también conocida como "Ports and Adapters", es un patrón de diseño que aísla la lógica de negocio (el "núcleo" de la aplicación) de la tecnología externa (bases de datos, frameworks, etc.).
-
-Puertos (Ports): Interfaces que definen la comunicación entre el núcleo de la aplicación y el exterior.
-
-Adaptadores (Adapters): Implementaciones concretas de los puertos que se conectan a tecnologías específicas.
-
-Esta estructura asegura que tu lógica de negocio no dependa directamente de una base de datos o de un framework web, permitiendo cambiar o probar diferentes tecnologías con facilidad.
-
 ## 🛠️ Tecnologías utilizadas
 * TypeScript: Lenguaje de programación.
 
